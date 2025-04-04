@@ -1,7 +1,12 @@
 {
-  "/tools/page": "app/tools/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/page": "app/page.js",
+  "/_not-found": "app/_not-found.js",
+  "/graphic-design/page": "app/graphic-design/page.js",
   "/about/page": "app/about/page.js",
-  "/services/page": "app/services/page.js"
+  "/contact/page": "app/contact/page.js",
+  "/services/page": "app/services/page.js",
+  "/software-development/page": "app/software-development/page.js",
+  "/page": "app/page.js",
+  "/team/page": "app/team/page.js",
+  "/web-development/page": "app/web-development/page.js",
+  "/tools/page": "app/tools/page.js"
 }
