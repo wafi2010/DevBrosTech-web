@@ -28,6 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.png" sizes="any" />
         <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+        <meta name="google-site-verification" content="fHKLbvXJjWKNZr6yQhUHeeqUtroEgkAVvVGz7ik-oWI" />
       </head>
       <body className={inter.className}>
         <ThemeProvider
