@@ -50,7 +50,7 @@ export default function About() {
           {[
             {
               title: "Experience",
-              value: "1.5+ Years",
+              value: "2+ Years",
               description: "Industry expertise and proven track record"
             },
             {
