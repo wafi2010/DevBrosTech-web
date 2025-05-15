@@ -48,18 +48,12 @@ const icons: Record<string, JSX.Element> = {
   "React": <BiLogoReact className="text-blue-500 text-[50px]" />,
   "Next.js": <Img src={nextLogo} alt="Next.js Logo" width={100} height={100} />,
   "TypeScript": <BiLogoTypescript className="text-blue-600 text-[50px]" />,
-  "Tailwind CSS": <BiLogoTailwindCss className="text-blue-400 text-[50px]" />,
-  "Framer Motion": <BiPaint className="text-purple-500 text-[50px]" />,
-  "HTML5": <BiCodeAlt className="text-orange-500 text-[50px]" />,
-  "CSS3": <BiCodeAlt className="text-blue-500 text-[50px]" />,
-  "GSAP": <BiPaint className="text-green-400 text-[50px]" />,
   "Flask": <BiServer className="text-gray-700 text-[50px]" />,
   "Django": <BiServer className="text-green-800 text-[50px]" />,
-
-  // Software Development
-  "Python": <BiLogoPython className="text-yellow-600 text-[50px]" />,
   "Node.js": <BiLogoNodejs className="text-green-600 text-[50px]" />,
   "Express.js": <BiServer className="text-gray-600 text-[50px]" />,
+  // Software Development
+  "Python": <BiLogoPython className="text-yellow-600 text-[50px]" />,
   "MongoDB": <BiLogoMongodb className="text-green-500 text-[50px]" />,
   "PostgreSQL": <BiLogoPostgresql className="text-blue-700 text-[50px]" />,
   "SQLite": <BiData className="text-blue-300 text-[50px]" />,
@@ -97,42 +91,6 @@ const icons: Record<string, JSX.Element> = {
           name: "TypeScript",
           description: "Strongly typed programming language that builds on JavaScript giving better tooling.",
           features: ["Static Type Checking", "IDE Support", "ES6 Features", "Interface Definitions", "Compile-time Errors"]
-        },
-        {
-          name: "HTML5",
-          description: "The latest evolution of the standard that defines HTML, with new elements and attributes.",
-          features: ["Semantic Elements", "Audio/Video Support", "Canvas API", "Local Storage", "Form Validation"]
-        },
-        {
-          name: "CSS3",
-          description: "The latest evolution of the Cascading Style Sheets language with new capabilities.",
-          features: ["Flexbox", "Grid", "Transitions", "Animations", "Variables"]
-        },
-        {
-          name: "Tailwind CSS",
-          description: "A utility-first CSS framework for rapid UI development without leaving your HTML.",
-          features: ["Utility-First", "Responsive Design", "Dark Mode", "Custom Variants", "Low Bundle Size"]
-        },
-        {
-          name: "Bootstrap",
-          description: "A utility-first CSS framework for rapid UI development without leaving your HTML.",
-          features: [
-            "Grid System",
-            "Pre-built Components",
-            "Customizable Themes",
-            "Responsive Layouts",
-            "JavaScript Plugins"
-          ]
-        }, 
-        {
-          name: "Framer Motion",
-          description: "A production-ready motion library for React that makes implementing animations easy.",
-          features: ["Declarative Animations", "Gestures", "Layout Animations", "Exit Animations", "Variants Support"]
-        },
-        {
-          name: "GSAP",
-          description: "Professional-grade JavaScript animation library for creating high-performance animations.",
-          features: ["Timeline", "ScrollTrigger", "Advanced Easing", "Path Animation", "Cross-Browser Support"]
         },
         {
           name: "Node.js",
@@ -185,16 +143,6 @@ const icons: Record<string, JSX.Element> = {
           features: ["Easy to Learn", "Extensive Libraries", "Data Science Support", "Cross-platform", "OOP Support"]
         },
         {
-          name: "Node.js",
-          description: "JavaScript runtime built on Chrome's V8 JavaScript engine for building server-side applications.",
-          features: ["Non-blocking I/O", "NPM Ecosystem", "Fast Execution", "Cross-Platform", "Microservices Support"]
-        },
-        {
-          name: "Express.js",
-          description: "Fast, unopinionated, minimalist web framework for Node.js for building APIs and web applications.",
-          features: ["Middleware", "Routing", "Template Engines", "Error Handling", "HTTP Utility Methods"]
-        },
-        {
           name: "MongoDB",
           description: "NoSQL database that uses JSON-like documents with optional schemas for modern applications.",
           features: ["Document-Oriented", "Horizontal Scaling", "Flexible Schema", "Aggregation Framework", "Indexing"]
@@ -218,16 +166,6 @@ const icons: Record<string, JSX.Element> = {
           name: "Git",
           description: "Distributed version control system for tracking changes in source code during development.",
           features: ["Branching", "Merging", "Distributed Development", "Speed", "Data Integrity"]
-        },
-        {
-          name: "GitHub",
-          description: "Platform for hosting and reviewing code, managing projects, and building software together.",
-          features: ["Pull Requests", "Issue Tracking", "Actions", "Code Reviews", "Project Management"]
-        },
-        {
-          name: "Docker",
-          description: "Platform for developing, shipping, and running applications using containerization.",
-          features: ["Containerization", "Image Versioning", "Isolation", "Portability", "Microservices Architecture"]
         },
         {
           name: "Flask",
