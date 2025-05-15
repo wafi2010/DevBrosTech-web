@@ -23,8 +23,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <title>DevBros Technology - DBT</title>
-        <meta name="description" content="This is a sample Next.js page." />
+        <title>DevBros Technology - DbT</title>
+        <meta name="description" content="DevBros Technology - DbT" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.png" sizes="any" />
         <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
