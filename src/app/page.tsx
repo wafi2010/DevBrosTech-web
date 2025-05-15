@@ -43,6 +43,7 @@ export default function Home() {
   // Hero carousel text
   const heroTexts = [
     "Creating Digital Excellence",
+    "Build The Best WebApp, Softwares & Mobile Apps",
     "Building Tomorrow's Web",
     "Innovative Solutions",
     "Turning Ideas into Reality"
@@ -328,7 +329,7 @@ export default function Home() {
               { count: "100+", label: "Projects Completed" },
               { count: "20+", label: "Happy Clients" },
               { count: "3", label: "Team Members" },
-              { count: "1.5+", label: "Years Experience" }
+              { count: "2+", label: "Years Experience" }
             ].map((stat, index) => (
               <motion.div
                 key={index}
