@@ -80,57 +80,46 @@ const icons: Record<string, JSX.Element> = {
         {
           name: "React",
           description: "A JavaScript library for building user interfaces with component-based architecture.",
-          features: ["Component-Based", "Virtual DOM", "One-way Data Binding", "JSX Support", "Rich Ecosystem"]
         },
         {
           name: "Next.js",
           description: "React framework for production that enables server-side rendering and static site generation.",
-          features: ["Server-Side Rendering", "Static Site Generation", "API Routes", "File-based Routing", "Built-in CSS Support"]
         },
         {
           name: "TypeScript",
           description: "Strongly typed programming language that builds on JavaScript giving better tooling.",
-          features: ["Static Type Checking", "IDE Support", "ES6 Features", "Interface Definitions", "Compile-time Errors"]
         },
         {
           name: "Node.js",
           description: "JavaScript runtime built on Chrome's V8 JavaScript engine for backend development.",
-          features: ["Non-blocking I/O", "Event-driven", "NPM Ecosystem", "Microservices", "Real-time Applications"]
         },
         {
           name: "Express.js",
           description: "Fast, unopinionated, minimalist web framework for Node.js for building APIs and web applications.",
-          features: ["Middleware", "Routing", "Template Engines", "Error Handling", "HTTP Utility Methods"]
         },
         {
           name: "MongoDB",
           description: "NoSQL database that uses JSON-like documents with optional schemas for modern web applications.",
-          features: ["Document-Oriented", "Horizontal Scaling", "Flexible Schema", "Aggregation Framework", "Indexing"]
         },
         {
           name: "PostgreSQL",
           description: "Powerful, open source object-relational database system for web applications.",
-          features: ["ACID Compliance", "Complex Queries", "JSON Support", "Multi-Version Concurrency Control", "Extensibility"]
         },
         {
           name: "SQL",
           description: "Standard language for storing, manipulating, and retrieving data in relational databases.",
-          features: ["Data Querying", "Data Manipulation", "Data Definition", "Data Control", "Joins & Relationships"]
         },
         {
           name: "SQLite",
           description: "C library that provides a lightweight disk-based database for web applications.",
-          features: ["Self-contained", "Serverless", "Zero Configuration", "Cross-platform", "Reliable"]
         },
         {
           name: "Flask",
           description: "Lightweight WSGI web application framework in Python for building web applications.",
-          features: ["Minimal", "Flexible", "Extensions", "Jinja2 Templates", "RESTful Request Dispatching"]
         },
         {
           name: "Django",
           description: "High-level Python web framework that encourages rapid development and clean design.",
-          features: ["ORM", "Admin Interface", "Authentication", "URL Routing", "Template Engine"]
         }
       ]
     },
@@ -140,32 +129,22 @@ const icons: Record<string, JSX.Element> = {
         {
           name: "Python",
           description: "High-level, interpreted programming language with dynamic semantics for general programming.",
-          features: ["Easy to Learn", "Extensive Libraries", "Data Science Support", "Cross-platform", "OOP Support"]
         },
         {
           name: "MongoDB",
           description: "NoSQL database that uses JSON-like documents with optional schemas for modern applications.",
-          features: ["Document-Oriented", "Horizontal Scaling", "Flexible Schema", "Aggregation Framework", "Indexing"]
         },
         {
           name: "PostgreSQL",
           description: "Powerful, open source object-relational database system with SQL compliance.",
-          features: ["ACID Compliance", "Complex Queries", "JSON Support", "Multi-Version Concurrency Control", "Extensibility"]
         },
         {
           name: "SQL",
           description: "Standard language for storing, manipulating, and retrieving data in relational databases.",
-          features: ["Data Querying", "Data Manipulation", "Data Definition", "Data Control", "Joins & Relationships"]
         },
         {
           name: "SQLite",
           description: "C library that provides a lightweight disk-based database for software applications.",
-          features: ["Self-contained", "Serverless", "Zero Configuration", "Cross-platform", "Reliable"]
-        },
-        {
-          name: "Git",
-          description: "Distributed version control system for tracking changes in source code during development.",
-          features: ["Branching", "Merging", "Distributed Development", "Speed", "Data Integrity"]
         },
         {
           name: "Flask",
@@ -185,27 +164,22 @@ const icons: Record<string, JSX.Element> = {
         {
           name: "Figma",
           description: "Cloud-based design tool for interface design with real-time collaboration features.",
-          features: ["Collaborative Editing", "Prototyping", "Component System", "Vector Networks", "Auto Layout"]
         },
         {
           name: "Adobe Photoshop",
           description: "Industry-standard photo editing software used for image manipulation and graphic design.",
-          features: ["Layer-based Editing", "Smart Objects", "Filters", "Adjustment Layers", "Masking"]
         },
         {
           name: "Adobe Illustrator",
           description: "Vector graphics editor used for creating logos, icons, drawings, typography, and illustrations.",
-          features: ["Vector Editing", "Pen Tool", "Pathfinder", "Type Tools", "Precise Transformations"]
         },
         {
           name: "Adobe XD",
           description: "Design tool for digital experiences, including websites and mobile apps.",
-          features: ["Prototyping", "Responsive Resize", "Repeat Grid", "Voice Prototyping", "Components"]
         },
         {
           name: "Sketch",
           description: "Digital design app focused on user interface and user experience design for web and mobile.",
-          features: ["Vector Editing", "Symbols", "Plugins", "Prototyping", "Export Options"]
         }
       ]
     }
@@ -350,7 +324,7 @@ const icons: Record<string, JSX.Element> = {
                       <div className="rounded-lg p-3 bg-gray-100 dark:bg-gray-800">
                         {getIconForTool(tool.name)}
                       </div>
-                      <div className="flex items-center flex-col gap-4">
+                      <div className="flex items-center flex-col gap-4 text-center justify-center">
                         <h3 className="text-xl font-bold mb-2">{tool.name}</h3>
                         <p className="text-gray-600 dark:text-gray-300 mb-4">{tool.description}</p>
                       </div>
