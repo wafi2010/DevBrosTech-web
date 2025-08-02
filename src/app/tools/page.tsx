@@ -45,9 +45,9 @@ export default function Tools() {
   const getIconForTool = (toolName: string) => {
 const icons: Record<string, JSX.Element> = {
   // Web Development
-  "React": <BiLogoReact className="text-blue-500 text-[50px]" />,
+  "React": <BiLogoReact className="text-blue-500 text-[60px]" />,
   "Next.js": <Img src={nextLogo} alt="Next.js Logo" width={100} height={100} />,
-  "TypeScript": <BiLogoTypescript className="text-blue-600 text-[50px]" />,
+  "TypeScript": <BiLogoTypescript className="text-blue-600 text-[60px]" />,
   "Flask": <BiServer className="text-gray-700 text-[50px]" />,
   "Django": <BiServer className="text-green-800 text-[50px]" />,
   "Node.js": <BiLogoNodejs className="text-green-600 text-[50px]" />,
