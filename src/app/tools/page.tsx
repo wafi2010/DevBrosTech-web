@@ -346,23 +346,13 @@ const icons: Record<string, JSX.Element> = {
                     variants={itemVariants}
                     className="card hover:border-primary/50 hover-lift"
                   >
-                    <div className="flex items-start gap-4">
+                    <div className="flex items-center flex-col gap-6">
                       <div className="rounded-lg p-3 bg-gray-100 dark:bg-gray-800">
                         {getIconForTool(tool.name)}
                       </div>
-                      <div>
+                      <div className="flex items-center flex-col gap-4">
                         <h3 className="text-xl font-bold mb-2">{tool.name}</h3>
                         <p className="text-gray-600 dark:text-gray-300 mb-4">{tool.description}</p>
-                        <div className="flex flex-wrap gap-2">
-                          {tool.features.map((feature, i) => (
-                            <span 
-                              key={i} 
-                              className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300"
-                            >
-                              {feature}
-                            </span>
-                          ))}
-                        </div>
                       </div>
                     </div>
                   </motion.div>
