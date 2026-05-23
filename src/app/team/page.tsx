@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import tajul from "../../../public/tajul.png";
-import wafi from "../../../public/wafi.jpg";
+import wafi from "../../../public/portfolio-image.png";
 import sayem from "../../../public/sayem.png";
 
 export default function Team() {
